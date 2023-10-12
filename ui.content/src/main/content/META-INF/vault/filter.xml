@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/conf/myloansaembase" mode="merge"/>
+    <filter root="/content/myloansaembase" mode="merge"/>
+    <filter root="/content/dam/myloansaembase" mode="merge">
+        <exclude pattern="/content/dam/myloansaembase(/.*)?"/>
+        <include pattern="/content/dam/myloansaembase/jcr:content(/.*)?"/>
+    </filter>
+    <filter root="/content/dam/myloansaembase/asset.jpg" mode="merge"/>
+    <filter root="/content/experience-fragments/myloansaembase" mode="merge"/>
+</workspaceFilter>

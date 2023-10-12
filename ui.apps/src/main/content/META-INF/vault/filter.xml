@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/apps/myloansaembase/clientlibs"/>
+    <filter root="/apps/myloansaembase/components"/>
+    <filter root="/apps/myloansaembase/i18n"/>
+</workspaceFilter>
